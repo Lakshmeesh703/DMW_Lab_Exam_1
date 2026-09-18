@@ -1,0 +1,3 @@
+access_method,execution_ms,candidate_count,scan_nodes
+btree_index,0.493,18,"[[""Seq Scan"", ""probe_band"", 82], [""Index Only Scan"", ""lsh_band"", 2]]"
+forced_sequential_scan,100.401,18,"[[""Seq Scan"", ""lsh_band"", 983918], [""Seq Scan"", ""probe_band"", 82]]"

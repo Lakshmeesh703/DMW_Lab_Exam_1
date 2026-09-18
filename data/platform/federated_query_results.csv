@@ -1,0 +1,2 @@
+scope,result_rows,joined_sales_lines,distinct_sales_lines,lines_without_product,joined_revenue,parquet_files_read
+S01 October 2024,720,9564,9564,270,6435443.95,1

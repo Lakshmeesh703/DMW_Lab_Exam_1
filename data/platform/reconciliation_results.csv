@@ -1,0 +1,13 @@
+month,pipeline_revenue,finance_revenue,variance,cause,owner_to_take_back,explanation
+2024-01,38446071.33,38446071.33,0.00,match,none,Pipeline revenue matches the finance amount.
+2024-02,34887085.55,34887085.55,0.00,match,none,Pipeline revenue matches the finance amount.
+2024-03,41971649.09,42457899.09,486250.00,definition difference,finance: decide whether institutional invoice belongs in till revenue.,Finance includes the 486250.00 institutional order invoiced outside the till.
+2024-04,37958457.37,37958457.37,0.00,match,none,Pipeline revenue matches the finance amount.
+2024-05,41764716.40,41764716.40,0.00,match,none,Pipeline revenue matches the finance amount.
+2024-06,38987082.82,38987082.82,0.00,match,none,Pipeline revenue matches the finance amount.
+2024-07,40295160.11,40527291.81,232131.70,source data,store operations: recover or explain S07 missing export days.,S07 exports are absent for 2024-07-09 through 2024-07-11; finance has manually supplied those days.
+2024-08,45252181.75,45252181.75,0.00,match,none,Pipeline revenue matches the finance amount.
+2024-09,44615037.46,44615037.46,0.00,match,none,Pipeline revenue matches the finance amount.
+2024-10,56359195.92,56359195.92,0.00,match,none,Pipeline revenue matches the finance amount.
+2024-11,51583838.47,51583838.47,0.00,match,none,Pipeline revenue matches the finance amount.
+2024-12,50745259.48,50745209.00,-50.48,definition difference,finance: align bill-level rounding policy.,Finance rounds each bill to the rupee; the pipeline sums line amounts to cents.

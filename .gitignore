@@ -1,0 +1,34 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Local database files
+*.duckdb
+*.duckdb.wal
+*.sqlite
+*.sqlite3
+
+# Generated supermarket object-store landing
+/data/object_store/
+/data/object_store_backup/
+/data/sales/
+
+# Local MinIO/PostgreSQL runtime state if bind-mounted into the workspace
+/data/minio-data/
+/data/postgres-data/
+/data_2/minio/data/
+/data_2/notices/
+/data_2/database/data/
+
+# Temporary logs and command output
+*.log
+*.tmp
+*.bak
+
+# OS/editor metadata
+.DS_Store
+Thumbs.db
+.vscode/
